@@ -1,0 +1,113 @@
+body {
+    background-color: #F0EFEB;
+    font-family: 'Playfair Display', serif;
+}
+
+#container {
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    font-size: 100%;
+    text-align: right;
+    font-weight: bold;
+    background-color: #EAE4E9;
+    padding: 1px 10px 1px 100px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 275%;
+}
+
+ul.navLinks {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #EAE4E9;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-size: 150%;
+    border-right: 1px solid #EAE4E9;
+  }
+  
+  ul.navLinks li a {
+    display: block;
+    color: #000;
+    padding: 25px 25px;
+    text-decoration: none;
+  }
+  
+  ul.navLinks li a.active {
+    background-color: #8080B3;
+    color: white;
+  }
+  
+  ul.navLinks li a:hover:not(.active) {
+    background-color: #556577;
+    color: white;
+  }
+
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    height: 2.5rem;            
+    background-color: #EAE4E9;
+    text-align: right;
+    border-top: 2px solid black;
+    padding-right: 15px;
+}
+
+#nav {
+    width: 180px; 
+    float: left;
+}
+
+#main {
+    width: 900px;
+    float: right;
+}
+.navLinks {
+  display: block;
+}
+
+ul.bio {
+  display: block;
+  margin: 0;
+  padding: 0;
+  color: black;
+  padding-left: 10%;
+  list-style-type: square;
+}
+
+ul.bio li a:hover {
+  background-color: #EAE4E9;
+  color: white;
+}
+
+ul.bio li a:link {
+  color: black;
+  text-decoration: none;
+}
+
+ul.bio li a:visited {
+  background-color: #8080B3;
+}
+
+.bullets {
+  list-style-type: square;
+}
+
+h3 {
+  background-color: #8080B3;
+  color: white;
+}

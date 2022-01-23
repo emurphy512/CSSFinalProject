@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #F0EFEB;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#header {
+    background-color: #EAE4E9;
+    padding: 5px 90px 5px 5px;
+    margin: 20px 30px;
+    border: none;
+    text-align: right;
+    font-weight: bold;
+    font-size: 150%;
+    border-radius: 15px;
+    border: 2px solid #556577;
+}
+
+.title {
+    vertical-align: sub;
+    font-style: italic;
+    font-size: 50%;
+}
+
+#container {
+    min-height:100%;
+    position:relative;
+}
+
+#navHeader {
+    width: 25%;
+    float: left;
+}
+
+#body::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#body {
+    width: 75%;
+    float: right;
+}
+
+#navHeader ul.navLinks {
+    list-style-type: none;
+    margin: 0px 20px;
+    padding: 0;
+    background-color: #EAE4E9;
+    font-size: 150%;
+    border: 2px solid #F6F4F6;
+}
+
+#resumeNav ul.resumeLinks {
+    list-style-type: none;
+    margin: 0px 20px;
+    padding: 0;
+    background-color: #F0EFEB;
+    font-size: 100%;
+    border: 2px solid #F6F4F6;
+}
+
+ul.resumeLinks li a {
+    display: block;
+    color: #000;
+    padding: 25px 25px;
+    margin: 2px;
+    text-decoration: none;
+    border: 2px solid #556577;
+    width: 30%;
+}
+
+ul.resumeLinks li a:hover {
+    background-color: #556577;
+    color: white;
+}
+
+ul.navLinks li a {
+    display: block;
+    color: #000;
+    padding: 25px 25px;
+    margin: 2px;
+    text-decoration: none;
+    border: 2px solid #556577;
+}
+
+ul.navLinks li a.active {
+    background-color: #8080B3;
+    color: white;
+}
+
+ul.navLinks li a:hover:not(.active) {
+    background-color: #556577;
+    color: white;
+}
+
+a:link {
+    background-color: #EAE4E9;
+    color: black;
+    text-decoration: none;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right:0;
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    padding-bottom: 75px;
+    padding-right: 60px;
+    background-color: #EAE4E9;
+    border-top: 2px solid #556577;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
